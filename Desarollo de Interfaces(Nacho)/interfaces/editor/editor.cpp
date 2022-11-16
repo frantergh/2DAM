@@ -8,6 +8,8 @@
 #include <QTextStream>
 #include <QTextBlock>
 #include <QCloseEvent>
+#include <QFileInfo>
+#include <QVariant>
 
 Editor::Editor(QWidget *parent) : QMainWindow(parent)
 {
@@ -23,15 +25,16 @@ Editor::Editor(QWidget *parent) : QMainWindow(parent)
     modificado = false;
     ruta = "";
 
+    dBuscar = NULL;
+
     connect(editorCentral, SIGNAL(textChanged()), this, SLOT(slotModificado()));
 }
 
 void Editor::hacerMenus()
 {
+    QMenuBar *barra = new QMenuBar();
 
     menuArchivo = new QMenu("Archivo");
-
-    QMenuBar *barra = new QMenuBar();
     barra->addMenu(menuArchivo);
 
     accionSalir = new QAction("Salir");
@@ -58,8 +61,6 @@ void Editor::hacerMenus()
     accionGuardarComo->setStatusTip("Guardar Archivo Como");
     accionGuardarComo->setToolTip("Guardar Archivo Como");
 
-//menudEditar->addAction(accionBUscar) foto en el movil
-
     connect(accionSalir, SIGNAL(triggered()), this, SLOT(slotSalir()));
     connect(accionAbrir, SIGNAL(triggered()), this, SLOT(slotAbrir()));
     connect(accionGuardar, SIGNAL(triggered()), this, SLOT(slotGuardar()));
@@ -80,7 +81,20 @@ void Editor::hacerMenus()
     barraHerramientas->addAction(accionAbrir);
     barraHerramientas->addAction(accionGuardar);
     barraHerramientas->addAction(accionGuardarComo);
+
+    menuArchivo->addSeparator();
     addToolBar(barraHerramientas);
+
+    QMenu * menuEditar = new QMenu("Editar");
+    barra->addMenu(menuEditar);
+
+    accionBuscar = new QAction("Buscar");
+    accionBuscar->setShortcut(QString("Ctrl+f"));
+    accionBuscar->setStatusTip("Buscar palabras");
+    connect(accionBuscar, SIGNAL(triggered()), this, SLOT(slotBuscar()));
+
+    menuEditar->addAction(accionBuscar);
+
 }
 
 void Editor::slotSalir()
@@ -95,10 +109,10 @@ void Editor::slotAbrir()
 
         int respuesta1 = QMessageBox::warning(this, QString("Abrir Documento"), QString("Achivo modificado, que hago?"), QMessageBox::Ok | QMessageBox::Cancel);
 
-        if (respuesta1 == QMessageBox::Cancel)
-        {
-            return;
-        }
+        // if (respuesta1 == QMessageBox::Cancel)
+        // {
+        //     return;
+        // }
         if (respuesta1 == QMessageBox::Ok)
         {
             slotGuardar();
@@ -107,34 +121,10 @@ void Editor::slotAbrir()
 
     QString rutaArchivo = QFileDialog::getOpenFileName(this, QString("Abrir Archivo"), "/home/ubuntu/", QString("Ficheros de texto (*.txt)"));
 
-    if (rutaArchivo.isEmpty())
+    if (!rutaArchivo.isEmpty())
     {
-        return;
+        leerDisco(rutaArchivo);
     }
-
-    qDebug() << "Vas a abrir el archivo " << rutaArchivo;
-
-    QFile fichero(rutaArchivo);
-
-    if (!fichero.open(QIODevice::ReadOnly))
-    {
-        QMessageBox::critical(this, QString("Problema gordo"), QString("No podemos tocar el archivo"), QMessageBox::Ok);
-        return;
-    }
-
-    QTextDocument *documento = editorCentral->document();
-
-    documento->clear();
-
-    QTextStream flujo(&fichero);
-
-    while (!flujo.atEnd())
-    {
-        QString linea = flujo.readLine();
-        editorCentral->append(linea);
-    }
-    ruta = rutaArchivo;
-    modificado = false;
 }
 
 bool Editor::slotGuardar()
@@ -144,10 +134,8 @@ bool Editor::slotGuardar()
     if (ruta.isEmpty())
     {
         return slotGuardarComo();
-        
     }
     return escribirADisco(ruta);
-    
 }
 
 bool Editor::slotGuardarComo()
@@ -177,6 +165,8 @@ bool Editor::escribirADisco(QString rutaArchivo)
     ruta = rutaArchivo;
     qDebug() << "Vas a Guardar el archivo " << ruta;
     modificado = false;
+
+    anadirArchivoMenu(ruta);
     return true;
 }
 
@@ -187,7 +177,6 @@ void Editor::slotModificado()
 
 void Editor::closeEvent(QCloseEvent *event)
 {
-    
 
     if (modificado)
     {
@@ -196,9 +185,8 @@ void Editor::closeEvent(QCloseEvent *event)
         if (respuesta == QMessageBox::Cancel)
         {
             qDebug() << "Salir";
-            
-            return;
 
+            return;
         }
         if (respuesta == QMessageBox::Ok)
         {
@@ -207,17 +195,97 @@ void Editor::closeEvent(QCloseEvent *event)
                 event->ignore();
                 qDebug() << "No Salir";
                 return;
-
-            }  else {
+            }
+            else
+            {
                 qDebug() << "Salir";
                 return;
             }
-            
-            
         }
     }
     event->accept();
 }
-void Editor::slotBuscar(){
 
+void Editor::anadirArchivoMenu(QString rutaAccion)
+{
+    for (int i = 0; i < acciones.length(); i++)
+    {
+        disconnect(acciones.at(i), SIGNAL(triggered()));
+        menuArchivo->removeAction(acciones.at(i));
+    }
+    for (int i = 0; i < acciones.length(); i++)
+    {
+        delete acciones.at(i);
+    }
+    acciones.clear();
+
+    listaArchivosRecientes.removeAll(rutaAccion);
+    listaArchivosRecientes.prepend(rutaAccion);
+
+    for (int i = 0; i < listaArchivosRecientes.length(); i++)
+    {
+        qDebug() << listaArchivosRecientes.at(i);
+
+        QString rutaCorta = QFileInfo(rutaAccion).fileName();
+        QAction *accion = new QAction(rutaCorta);
+        QVariant variantRutaCompleta(ruta);
+        accion->setData(variantRutaCompleta);
+        acciones.append(accion);
+
+        menuArchivo->addAction(accion);
+
+        connect(accion, SIGNAL(triggered()), this, SLOT(slotReciente()));
+    }
+}
+
+void Editor::slotReciente()
+{
+    QObject *emisor = sender();
+
+    QAction *accionElegida = qobject_cast<QAction *>(emisor);
+
+    QString rutaCompleta = accionElegida->data().toString();
+
+    qDebug() << "Has pulsado el menu " << accionElegida->text();
+    qDebug() << rutaCompleta;
+
+    leerDisco(rutaCompleta);
+}
+
+void Editor::leerDisco(QString rutaArchivo)
+{
+    if (rutaArchivo.isEmpty())
+    {
+        return;
+    }
+
+    qDebug() << "Vas a abrir el archivo " << rutaArchivo;
+
+    QFile fichero(rutaArchivo);
+
+    if (!fichero.open(QIODevice::ReadOnly))
+    {
+        QMessageBox::critical(this, QString("Problema gordo"), QString("No podemos tocar el archivo"), QMessageBox::Ok);
+        return;
+    }
+
+    QTextDocument *documento = editorCentral->document();
+
+    documento->clear();
+
+    QTextStream flujo(&fichero);
+
+    while (!flujo.atEnd())
+    {
+        QString linea = flujo.readLine();
+        editorCentral->append(linea);
+    }
+    ruta = rutaArchivo;
+    modificado = false;
+
+    anadirArchivoMenu(ruta);
+}
+
+void Editor::slotBuscar(){
+    close();
 }

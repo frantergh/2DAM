@@ -9,8 +9,9 @@
 #include <QAction>
 #include <QToolBar>
 #include <QCloseEvent>
-#include"dbuscar.h" 
-
+#include <QVector>
+#include <QStringList>
+#include "dbuscar.h"
 // #include "ui_editor.h"
 
 class Editor : public QMainWindow //, public Ui::Editor
@@ -19,27 +20,33 @@ class Editor : public QMainWindow //, public Ui::Editor
 
 public:
     Editor(QWidget *parent = NULL);
-        
-
-        //ACCIONES DE PUNTEROS.
 
     QTextEdit *editorCentral;
     QMenu *menuArchivo;
+
     QMenu *menuContectual;
     QAction *accionSalir;
     QAction *accionAbrir;
     QAction *accionGuardar;
     QAction *accionGuardarComo;
-    QVector <QAction*> acciones;
-    QAction dBuscar;
+
+    QAction *accionBuscar;
     QToolBar *barraHerramientas;
-    Dbuscar *dBuscar;
-void hacerMenus();
+
     bool modificado;
     QString ruta;
+
+    QVector<QAction*> acciones;
+
+    DBuscar *dBuscar;
+
+    QStringList listaArchivosRecientes;
+
     bool escribirADisco(QString ruta);
+    void leerDisco(QString);
     void hacerMenus();
     void closeEvent(QCloseEvent * );
+    void anadirArchivoMenu(QString ruta);
 
 public slots:
     void slotSalir();
@@ -47,6 +54,7 @@ public slots:
     bool slotGuardar();
     bool slotGuardarComo();
     void slotModificado();
+    void slotReciente();
     void slotBuscar();
 };
 

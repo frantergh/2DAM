@@ -1,20 +1,10 @@
 #include "dbuscar.h"
 #include <QDebug>
-DBUscar::DBuscar(QWidget *parent): QDialog(parent){
 
-setupUi(this);
-
-
-}
-
-voidDBuscar::slotEjemplo(){
-
-
+DBuscar::DBuscar(QWidget *parent): QDialog(parent){
+    setupUi(this);
 
 
 
 }
-void DBuscar::slotBtnBuscar(){
-emit senyalBuscarAlante(QString("hola"));
 
-}
