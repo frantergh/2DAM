@@ -1,0 +1,4 @@
+vista\App.class
+dao\ConexionDB.class
+dao\ClienteDao.class
+modelo\Cliente.class

@@ -1,0 +1,354 @@
+<datos xmlns="">
+	<registros>
+		<registro>
+			<MA_CODIGO>1</MA_CODIGO>
+			<MA_REGISTRO>5030010</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunidad de l´Alacantí/Mancomunitat de l´Alacantí</MA_NOMBRE>
+			<MA_COMPETENCIAS>Depuración de Aguas Residuales Gabinete Psicopedagógico Recogida Animales Abandonados Sanidad Urbanismo</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Agost, Alicante/Alacant, El Campello, Mutxamel, Sant Joan d´Alacant, San Vicente del Raspeig/Sant Vicent del Raspeig</MA_INTEGRANTES>
+			<MA_APROBACION>Real Decreto de 19/05/1978. Orden de 14/07/1986 sobre incorporación de municipios (DOGV 418 de 20/08/1986).</MA_APROBACION>
+			<MA_DIRECCION>Plza. Santísima Faz, 3-1º Dcha</MA_DIRECCION>
+			<MA_CP>03002 Alicante</MA_CP>
+			<MA_TELEFONO>965 14 33 20</MA_TELEFONO>
+			<MA_FAX>965 14 34 15</MA_FAX>
+			<MA_WEB>www.mancomunidad-alacanti.org</MA_WEB>
+			<MA_EMAIL>info@mancomunidad-alacanti.org</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>2</MA_CODIGO>
+			<MA_REGISTRO>5030020</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunidad Municipal de la estación depuradora de aguas residuales, margen derecha del Río Segura</MA_NOMBRE>
+			<MA_COMPETENCIAS>Depuración de Aguas Residuales</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Algorfa, Benejúzar, Bigastro, Jacarilla</MA_INTEGRANTES>
+			<MA_APROBACION>Orden de 02/03/1987 de la Conselleria de Administración Pública sobre la constitución y Estatutos (DOGV 557 de 31/03/1987). Corrección de errores del 31/07/1987.</MA_APROBACION>
+			<MA_DIRECCION>Pl. de España, 1</MA_DIRECCION>
+			<MA_CP>03390 Benejúzar (Alicante)</MA_CP>
+			<MA_TELEFONO>965 35 61 50</MA_TELEFONO>
+			<MA_FAX>965 35 66 89</MA_FAX>
+			<MA_WEB/>
+			<MA_EMAIL>ayuntamiento@benejuzar.es</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>3</MA_CODIGO>
+			<MA_REGISTRO>5030030</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunitat de Serveis Socials de la Marina Alta</MA_NOMBRE>
+			<MA_COMPETENCIAS>Servicios sociales.</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Alcalalí, Beniarbeig, Benigembla, Benidoleig, Benimeli, Castell de Castells, Xaló, Llíber, Murla, Ondara, Orba, Parcent, Pedreguer, Poblets (els), Ràfol d´Almúnia (el), Sagra, Sanet y Negrals, Senija, Tormos, Vall de Laguar (la), Verger (el)</MA_INTEGRANTES>
+			<MA_APROBACION>Orden de 13/10/1988 de la Conselleria de Administración Pública. Orden de 11/09/1991 sobre adhesión de municipios y modificación de los Estatutos (DOGV 1639 de 10/10/1991) &lt;br&gt; RESOLUCIÓN de 3 de octubre de 2011, del director general de Administración Loc</MA_APROBACION>
+			<MA_DIRECCION>C/ Bon Aire, 12</MA_DIRECCION>
+			<MA_CP>03790 Orba (Alicante)</MA_CP>
+			<MA_TELEFONO>965 58 30 01</MA_TELEFONO>
+			<MA_FAX>965 58 33 20</MA_FAX>
+			<MA_WEB>www.massma.org</MA_WEB>
+			<MA_EMAIL>massma@massma.org</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>4</MA_CODIGO>
+			<MA_REGISTRO>5030040</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunidad de Municipios "Bajo Segura"</MA_NOMBRE>
+			<MA_COMPETENCIAS>Servicios Sociales</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Benejúzar, Catral, Rafal, San Fulgencio, San Isidro</MA_INTEGRANTES>
+			<MA_APROBACION>Orden de 10/11/1989 de la Consellería de Administración Pública sobre constitución y Estatutos.</MA_APROBACION>
+			<MA_DIRECCION>C/ Comandante Bernabé, 35 - Bajo</MA_DIRECCION>
+			<MA_CP>03390 Benejúzar (Alicante)</MA_CP>
+			<MA_TELEFONO>965 35 63 52</MA_TELEFONO>
+			<MA_FAX>965 35 63 52</MA_FAX>
+			<MA_WEB>www.mancomunidadbajosegura.com</MA_WEB>
+			<MA_EMAIL>mancomunidad@mancomunidadbajosegura.com</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>5</MA_CODIGO>
+			<MA_REGISTRO>5030050</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunidad Intermunicipal del Valle del Vinalopó-Mancomunitat Intermunicipal de la Vall del Vinalopó</MA_NOMBRE>
+			<MA_COMPETENCIAS>Servicios educativos y culturales Servicios sociales y asistenciales (en lo relativo al centro "El Molinet") Servicios sanitarios Defensa del medio ambiente, defensa de los animales y flora, equilibrio ecológico Recogida, transformación y tratamiento de l</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Elda, Monóvar/Monòver, Petrer, Sax</MA_INTEGRANTES>
+			<MA_APROBACION>Decreto del Consell de 23/5/1983. Orden de 03/06/1986 sobre adhesión de Sax y Monovar y modificación de Estatutos (DOGV 407 de 21/07/1986)</MA_APROBACION>
+			<MA_DIRECCION>C/ Nueva, 23</MA_DIRECCION>
+			<MA_CP>03600 Elda (Alicante)</MA_CP>
+			<MA_TELEFONO>966 98 18 16</MA_TELEFONO>
+			<MA_FAX>966 98 15 39</MA_FAX>
+			<MA_WEB>www.mancomunidadvinalopo.com</MA_WEB>
+			<MA_EMAIL>mancomunidadvv@telefonica.net</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>6</MA_CODIGO>
+			<MA_REGISTRO>5030060</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunidad de Servicios sociales y culturales Marina Baixa</MA_NOMBRE>
+			<MA_COMPETENCIAS>Servicios Sociales Gestión de los residuos sólidos urbanos</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Beniardá, Benifato, Benimantell, Bolulla, Callosa d´En Sarrià, Castell de Guadalest (el), Confrides, Polop, Tárbena</MA_INTEGRANTES>
+			<MA_APROBACION>Orden de 26 de marzo de 1991 de la Conselleria de Administración Públicas sobre constitución y Estatutos (DOGV 1534 de 03/05/1991) &lt;br&gt; RESOLUCIÓN de 11 de julio de 2012, del Director General de Administración Local por la que se publican los estatutos de</MA_APROBACION>
+			<MA_DIRECCION>Pl. España, 14</MA_DIRECCION>
+			<MA_CP>03510 Callosa d´En Sarria (Alicante)</MA_CP>
+			<MA_TELEFONO>965 88 20 70</MA_TELEFONO>
+			<MA_FAX>965 88 21 70</MA_FAX>
+			<MA_WEB>www.mancomunidadmarinabaixa.es/</MA_WEB>
+			<MA_EMAIL>info@mancomunidadmarinabaixa.es</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>7</MA_CODIGO>
+			<MA_REGISTRO>5030070</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunidad Intermunicipal "Foia de Castalla"</MA_NOMBRE>
+			<MA_COMPETENCIAS>Depuradora de aguas residuales.</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Castalla, Onil</MA_INTEGRANTES>
+			<MA_APROBACION>Resolución de 10/06/1986 de la Dirección General de Administración Local sobre constitución y Estatutos (DOGV 488 de 17/12/1986)</MA_APROBACION>
+			<MA_DIRECCION>Pl. Mayor, 1</MA_DIRECCION>
+			<MA_CP>03430 Onil (Alicante)</MA_CP>
+			<MA_TELEFONO>966 54 47 45</MA_TELEFONO>
+			<MA_FAX>965 56 41 31</MA_FAX>
+			<MA_WEB/>
+			<MA_EMAIL>alcaldia@onil.es</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>9</MA_CODIGO>
+			<MA_REGISTRO>5030090</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunitat Intermunicipal Vall del Pop</MA_NOMBRE>
+			<MA_COMPETENCIAS>Información y promoción de la actividad turística de interés y ámbito local. Protección del medio ambiente urbano (Gestión de residuos sólidos urbanos, Parques y jardines públicos, Protección contra la contaminación acústica, lumínica y atmosférica en zon</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Alcalalí, Benigembla, Benissa, Castell de Castells, Llíber, Murla, Parcent, Senija y Xaló</MA_INTEGRANTES>
+			<MA_APROBACION>Orden de 26/03/1991 de la Conselleria de Administración Pública sobre la constitución y estatutos (DOGV 1537 de 08/05/1991). &lt;br&gt; Datos facilitados por el secretario de la mancomunidad (Ayto. de Alcalalí, 02/12/2005) y por el Acta del Pleno de 8 de junio </MA_APROBACION>
+			<MA_DIRECCION>Pl. del Ajuntament, 1</MA_DIRECCION>
+			<MA_CP>03728 Alcalalí (Alicante)</MA_CP>
+			<MA_TELEFONO>966 48 20 24</MA_TELEFONO>
+			<MA_FAX>966 48 20 01</MA_FAX>
+			<MA_WEB>adlvalldepop.wordpress.com</MA_WEB>
+			<MA_EMAIL>secretaria@valldepop.es</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>10</MA_CODIGO>
+			<MA_REGISTRO>5030100</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunidad para la depuración de aguas residuales del margen izquierdo, final del Segura, de la Comarca de la Vega Baja</MA_NOMBRE>
+			<MA_COMPETENCIAS>Depuración, tratamiento y reutilización de las aguas residuales de los municipios asociados.</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Albatera, Catral, Daya Nueva, Daya Vieja, Dolores, San Fulgencio, San Isidro</MA_INTEGRANTES>
+			<MA_APROBACION>Orden de 24/08/1992 de la Conselleria de Administración Pública sobre constitución y Estatutos (DOGV 1869 de 24/09/1992).</MA_APROBACION>
+			<MA_DIRECCION>Pl. de España, 1</MA_DIRECCION>
+			<MA_CP>03158 Catral (Alicante)</MA_CP>
+			<MA_TELEFONO>965 72 30 01</MA_TELEFONO>
+			<MA_FAX>966 71 11 09</MA_FAX>
+			<MA_WEB/>
+			<MA_EMAIL>secretario@ayuntamientocatral.com</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>11</MA_CODIGO>
+			<MA_REGISTRO>5030110</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunidad de Servicios Sociales Mariola</MA_NOMBRE>
+			<MA_COMPETENCIAS>Servicios sociales.</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Agres, Alfafara, Alqueria d´Asnar (l´), Gaianes, Muro de Alcoy</MA_INTEGRANTES>
+			<MA_APROBACION>Orden de 15/11/1993 de la Conselleria de Administración Pública sobre la constitución y Estatutos (DOGV 2160 de 09/12/1993). Modificación: Pleno de 29/12/2008 de la Mancomunidad</MA_APROBACION>
+			<MA_DIRECCION>Plaza Matzem, 5</MA_DIRECCION>
+			<MA_CP>03830 Muro de Alcoy (Alicante)</MA_CP>
+			<MA_TELEFONO>966 51 61 04</MA_TELEFONO>
+			<MA_FAX>966 51 66 68</MA_FAX>
+			<MA_WEB>www.mancomunitatserveissocialsmariola.es</MA_WEB>
+			<MA_EMAIL>mancomunitat@vilademuro.net</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>12</MA_CODIGO>
+			<MA_REGISTRO>5030120</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunidad Intermunicipal para la prestación de servicios públicos municipales entre los municipios de Aspe y Hondón de las Nieves</MA_NOMBRE>
+			<MA_COMPETENCIAS>Tratamiento y eliminación de residuos sólidos y/o líquidos en el vertedero UPANEL</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Aspe, Hondón de las Nieves</MA_INTEGRANTES>
+			<MA_APROBACION>ORDEN de 22 de junio de 2006, de la Conselleria de Justicia, Interior y Administraciones Públicas, por la que se homologa la modificación de los estatutos de la Mancomunidad (DOGV 5383 de 08/11/2006) &lt;br&gt; Información pública de la iniciación del procedimi</MA_APROBACION>
+			<MA_DIRECCION>Plaza Mayor, 1</MA_DIRECCION>
+			<MA_CP>03680 Aspe (Alicante)</MA_CP>
+			<MA_TELEFONO>966 91 99 00</MA_TELEFONO>
+			<MA_FAX>965 49 22 22</MA_FAX>
+			<MA_WEB/>
+			<MA_EMAIL>secretaria@ayto.aspe.es</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>13</MA_CODIGO>
+			<MA_REGISTRO>5030130</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunitat "El Xarpolar"</MA_NOMBRE>
+			<MA_COMPETENCIAS>Cultura Economía Limpieza Viaria Limpieza Viaria y Recogida de Basura Turismo Servicios Sociales</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Agres, Alcocer de Planes, Alcoleja, Alfafara, Almudaina, Alqueria d´Asnar (l´), Balones, Benasau, Beniarrés, Benifallim, Benilloba, Benillup, Benimarfull, Benimassot, Castell de Castells, Facheca, Famorca, Gaianes, Gorga, Lorcha/Orxa (l´), Millena, Penàgu</MA_INTEGRANTES>
+			<MA_APROBACION>Orden de 24/11/1992 de la Conselleria de Administración Pública sobre la constitución y Estatutos (DOGV 1927 de 18/12/1992). &lt;br&gt; Información pública de la aprobación provisional de la modificación de los estatutos de la Mancomunidad. (DOCV núm. 6659, de </MA_APROBACION>
+			<MA_DIRECCION>Pl. Dalt Vila, 1</MA_DIRECCION>
+			<MA_CP>03828 Planes (Alicante)</MA_CP>
+			<MA_TELEFONO>965 51 44 62</MA_TELEFONO>
+			<MA_FAX>965 51 42 08</MA_FAX>
+			<MA_WEB>www.mancomunitatelxaporlar.es</MA_WEB>
+			<MA_EMAIL>mancomunitatelxarpolar@diputacionalicante.es</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>14</MA_CODIGO>
+			<MA_REGISTRO>5030140</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunitat de La Bonaigua</MA_NOMBRE>
+			<MA_COMPETENCIAS>Creación y prestación de servicios sociales, tanto generales como específicos (excepto Sella y Relleu) Prestación del servicio de control sanitario de animales de compañía Desarrollo local en cualquiera de sus fines Prestación y gestión del servicio de re</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Aigües, Relleu, Sella, Tibi, Torremanzanas/La Torre de les Maçanes, Busot</MA_INTEGRANTES>
+			<MA_APROBACION>Orden de 25/05/1993 de la Conselleria de Administración Pública sobre homologación de Estatutos (DOGV 2965 de 07/04/1997).</MA_APROBACION>
+			<MA_DIRECCION>Pl. Mayor, 16</MA_DIRECCION>
+			<MA_CP>03111 Busot (Alicante)</MA_CP>
+			<MA_TELEFONO>965 87 90 01</MA_TELEFONO>
+			<MA_FAX>965 87 95 56</MA_FAX>
+			<MA_WEB>www.mancomunidadbonaigua.es</MA_WEB>
+			<MA_EMAIL>mamcomunitatbonaigua@hotmail.com</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>15</MA_CODIGO>
+			<MA_REGISTRO>5030150</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunidad de Servicios de Promoción Económica Vega Baja</MA_NOMBRE>
+			<MA_COMPETENCIAS>Promoción económica y desarrollo local: formación, fomento de empleo, apoyo a la creación de empresas, desarrollo del turismo y del comercio Servicios básicos: mantenimiento y limpieza viaria, recogida y gestión de residuos sólidos urbanos, actividades de</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Algorfa, Benejúzar, Benferri, Benijófar, Bigastro, Jacarilla, Montesinos (Los), Redován, San Fulgencio, San Isidro, San Miguel de Salinas</MA_INTEGRANTES>
+			<MA_APROBACION>Orden de 06/09/1993 de la Conselleria de Administración Pública sobre constitución y Estatutos (DOGV 2128 de 21/10/1993)</MA_APROBACION>
+			<MA_DIRECCION>Avda. de la Libertad, 35</MA_DIRECCION>
+			<MA_CP>03380 Bigastro (Alicante)</MA_CP>
+			<MA_TELEFONO>966 77 06 06</MA_TELEFONO>
+			<MA_FAX>966 77 01 30</MA_FAX>
+			<MA_WEB>www.mpevegabaja.com</MA_WEB>
+			<MA_EMAIL>mancomunidad@mpevegabaja.com</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>16</MA_CODIGO>
+			<MA_REGISTRO>5030160</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunitat de Serveis Socials i Turisme de Pego, l´Atzúvia i les Valls</MA_NOMBRE>
+			<MA_COMPETENCIAS>Servicios sociales.  Turismo.</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Adsubia, Pego, Vall d´Alcalà (la), Vall d´Ebo (la), Vall de Gallinera</MA_INTEGRANTES>
+			<MA_APROBACION>Orden de 10/01/1997 de la Conselleria de Presidencia sobre la homologación de los Estatutos (DOGV 2965 de 07/04/1997) &lt;br&gt; ORDEN de 1 de octubre de 2009, de la consellera de Justicia y Administraciones Públicas, por la que se homologa la modificación de l</MA_APROBACION>
+			<MA_DIRECCION>C/ Ramón y Cajal, 14</MA_DIRECCION>
+			<MA_CP>03780 Pego (Alicante)</MA_CP>
+			<MA_TELEFONO>965 57 06 01</MA_TELEFONO>
+			<MA_FAX>966 40 02 56</MA_FAX>
+			<MA_WEB/>
+			<MA_EMAIL>serveissocials@pego.org</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>17</MA_CODIGO>
+			<MA_REGISTRO>5030170</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunitat Circuit Cultural Comarcal de la Marina Alta</MA_NOMBRE>
+			<MA_COMPETENCIAS>Servicios culturales.</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Adsubia, Alcalalí, Beniarbeig, Benidoleig, Benigembla, Benimeli, Benissa, Benitachell/Poble Nou de Benitatxell (el), Calpe/Calp, Castell de Castells, Dénia, Gata de Gorgos, Xaló, Jávea/Xàbia, Llíber, Murla, Ondara, Orba, Parcent, Pedreguer, Pego, Poblets </MA_INTEGRANTES>
+			<MA_APROBACION>Orden de 13/02/1997 de la Conselleria de Presidencia por la que se homologan los Estatutos (DOGV 2965 de 07/04/1997). &lt;br&gt; RESOLUCIÓN de 24 de octubre de 2011, del director general de Administración Local por la que se publican los estatutos de la Mancomu</MA_APROBACION>
+			<MA_DIRECCION>Pl. del Convent, 2</MA_DIRECCION>
+			<MA_CP>03760 Ondara (Alicante)</MA_CP>
+			<MA_TELEFONO>965 75 72 37</MA_TELEFONO>
+			<MA_FAX>965 76 60 81</MA_FAX>
+			<MA_WEB/>
+			<MA_EMAIL>macma@macma.org</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>18</MA_CODIGO>
+			<MA_REGISTRO>5030180</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunitat de la Vall de Gallinera i l´Atzúvia-Forna</MA_NOMBRE>
+			<MA_COMPETENCIAS>Conservación de caminos y vías rurales.  Protección del medio ambiente.  Guardería rural.</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Adsubia, Vall de Gallinera</MA_INTEGRANTES>
+			<MA_APROBACION>Orden de 20 de enero de 1999 de la Conselleria de Administración Pública sobre homologación de Estatutos (DOGV 3438 de 19/02/1999).</MA_APROBACION>
+			<MA_DIRECCION>Carretera, 35</MA_DIRECCION>
+			<MA_CP>03787 Vall de Gallinera</MA_CP>
+			<MA_TELEFONO>966 40 65 53</MA_TELEFONO>
+			<MA_FAX>966 40 65 66</MA_FAX>
+			<MA_WEB/>
+			<MA_EMAIL>mancogallineraadsubia@gmail.com</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>19</MA_CODIGO>
+			<MA_REGISTRO>5030190</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunidad de Servicios Beneixama, Campo de Mirra y Cañada</MA_NOMBRE>
+			<MA_COMPETENCIAS>Evaluación e información de situaciones de necesidad social y atención inmediata a personas en situación o riesgo de exclusión social. Gestión de los residuos sólidos urbanos y mantenimiento de parques y jardines. Servicio de limpieza viaria. Protección d</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Beneixama, Campo de Mirra/Camp de Mirra (el), Cañada</MA_INTEGRANTES>
+			<MA_APROBACION>Orden de 11 de abril de 2000 de la Conselleria de Administración Pública sobre la homologación de los Estatutos (DOGV 3761 de 31/05/2000) *Se aprueba modificación de los Estatutos relativa a los fines de la Mancomunidad y a la aportación económica de los </MA_APROBACION>
+			<MA_DIRECCION>Calle Cardenal Payá, 41</MA_DIRECCION>
+			<MA_CP>03460 Beneixama</MA_CP>
+			<MA_TELEFONO>965 82 21 01</MA_TELEFONO>
+			<MA_FAX>965 82 24 01</MA_FAX>
+			<MA_WEB/>
+			<MA_EMAIL>serviciossociales@beneixama.es</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>20</MA_CODIGO>
+			<MA_REGISTRO>5030200</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunidad de la Vid y el Mármol - Vidimar</MA_NOMBRE>
+			<MA_COMPETENCIAS>Servicios Sociales</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Algueña, Hondón de los Frailes, Hondón de las Nieves, Romana (la)</MA_INTEGRANTES>
+			<MA_APROBACION>Orden de 3 de octubre de 2001, de la Conselleria de Justicia y Administración Pública sobre homologación de Estatutos (DOGV 4123 de 08/11/2001). RESOLUCIÓN de 24 de septiembre de 2015 (DOCV 7627 de 01/10/2015), del director general de Administración Local</MA_APROBACION>
+			<MA_DIRECCION>Pl. España, 1</MA_DIRECCION>
+			<MA_CP>03650 Pinoso</MA_CP>
+			<MA_TELEFONO>902 19 09 00</MA_TELEFONO>
+			<MA_FAX>965 47 77 69</MA_FAX>
+			<MA_WEB/>
+			<MA_EMAIL>vidimar@pinoso.org</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>21</MA_CODIGO>
+			<MA_REGISTRO>5030210</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunitat Intermunicipal "La Rectoría"</MA_NOMBRE>
+			<MA_COMPETENCIAS>Cultura Deportes Limpieza Viaria y Recogida de Basura Turismo</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Benimeli, El Ràfol d´Almúnia, Sagra, Sanet y Negrals y Tormos</MA_INTEGRANTES>
+			<MA_APROBACION>Orden de 5 de septiembre de 2005 (DOGV 5103 de 29/09/2005) de la Conselleria de Justicia y Administraciones Públicas, por la que se homologan los Estatutos de la Mancomunitat Intermunicipal La Rectoría. &lt;br&gt; Aprobación provisional de la modificación de lo</MA_APROBACION>
+			<MA_DIRECCION>Carrer Major, 6</MA_DIRECCION>
+			<MA_CP>03769 Ràfol d´Almunia</MA_CP>
+			<MA_TELEFONO>965 58 71 68</MA_TELEFONO>
+			<MA_FAX>965 58 73 96</MA_FAX>
+			<MA_WEB/>
+			<MA_EMAIL>mancomunitatrectoria@gmail.com</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>22</MA_CODIGO>
+			<MA_REGISTRO>5030220</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunidad "La Vega"</MA_NOMBRE>
+			<MA_COMPETENCIAS>Servicios sociales y la promoción de la igualdad y prevención de la violencia contra la mujer</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Algorfa, Jacarilla, Redován, San Miguel de Salinas</MA_INTEGRANTES>
+			<MA_APROBACION>Orden de 22 de junio de 2006 (DOGV 5301 de 12/07/2006) de la Conselleria de Justicia, Interior y Administraciones Públicas, por la que se homologan los Estatutos de la Mancomunidad de Servicios Sociales La Vega. &lt;br&gt; RESOLUCIÓN de 17 de diciembre de 2012,</MA_APROBACION>
+			<MA_DIRECCION>Plaza del Ayuntamiento, 4</MA_DIRECCION>
+			<MA_CP>03370 Redován</MA_CP>
+			<MA_TELEFONO>966 75 56 39</MA_TELEFONO>
+			<MA_FAX>966 75 42 13</MA_FAX>
+			<MA_WEB>www.mancomunidadlavega.es</MA_WEB>
+			<MA_EMAIL>mancomunidad@mancomunidadlavega.es</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>23</MA_CODIGO>
+			<MA_REGISTRO>5030230</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunitat "Font de la Pedra"</MA_NOMBRE>
+			<MA_COMPETENCIAS>Control de vertidos en las redes municipales de alcantarillado. Saneamiento, depuración y reutilización de aguas residuales.</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>L´Alqueria d´Asnar, Cocentaina, Muro de Alcoy</MA_INTEGRANTES>
+			<MA_APROBACION>Orden de 12 de junio de 2006 (DOGV 5294 de 04/07/2006) y Orden de 22 de junio de 2006 (DOGV 5305 de 18/07/2006) de la Conselleria de Justicia, Interior y Administraciones Públicas, por la que se homologan los Estatutos de la Mancomunidad Font de la Pedra.</MA_APROBACION>
+			<MA_DIRECCION>Placeta Molina, 4</MA_DIRECCION>
+			<MA_CP>03830 Muro de Alcoy (Alicante)</MA_CP>
+			<MA_TELEFONO>965 53 05 57</MA_TELEFONO>
+			<MA_FAX>966 54 40 49</MA_FAX>
+			<MA_WEB/>
+			<MA_EMAIL>secretaria@vilademuro.net</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>24</MA_CODIGO>
+			<MA_REGISTRO>5030240</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunitat de Serveis Socials "El Comtat"</MA_NOMBRE>
+			<MA_COMPETENCIAS>Servicios sociales</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Balones, Benasau, Benimassot, Cocentaina, Millena, Quatretondeta</MA_INTEGRANTES>
+			<MA_APROBACION>Orden de 12 de febrero de 2007 (DOGV 5460 de 28/02/2007) de la Conselleria de Justicia, Interior y Administraciones Públicas por la que se homologan los Estatutos de la Mancomunidad El Comtat. &lt;br&gt; RESOLUCIÓN de 6 de febrero de 2012, del director general </MA_APROBACION>
+			<MA_DIRECCION>Plaça de la Vila, 1</MA_DIRECCION>
+			<MA_CP>03820 Cocentaina</MA_CP>
+			<MA_TELEFONO>965 59 00 51</MA_TELEFONO>
+			<MA_FAX>965 59 30 67</MA_FAX>
+			<MA_WEB/>
+			<MA_EMAIL>secretaria@cocentaina.org</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>25</MA_CODIGO>
+			<MA_REGISTRO>5030250</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunitat "L´Alcoià i El Comtat"</MA_NOMBRE>
+			<MA_COMPETENCIAS>Fomento de actividades económicas Actividades culturales Servicios educativos Fomento del turismo Protección del medio ambiente Urbanismo Vías públicas (conservación, mejora y señalización) Obras de infraestructura Transporte público de viajeros Medios de</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Agres, Alcoy/Alcoi, Alfafara, L´Alqueria d´Asnar, Banyeres de Mariola, Benimarfull, Cocentaina, Gaianes, Lorcha, Millena, Muro de Alcoy</MA_INTEGRANTES>
+			<MA_APROBACION>RESOLUCIÓN de 21 de diciembre de 2011 (DOCV 6688 de 10/01/2012), del director general de Administración Local, por la que se publican los estatutos</MA_APROBACION>
+			<MA_DIRECCION>C/ Sant Mateu, 3 ( Ed. Àgora)</MA_DIRECCION>
+			<MA_CP>03801 Alcoy (Alicante)</MA_CP>
+			<MA_TELEFONO>965 54 93 54</MA_TELEFONO>
+			<MA_FAX>965 53 71 61</MA_FAX>
+			<MA_WEB>lamancomunitat.org/?lang=es</MA_WEB>
+			<MA_EMAIL>info@lamancomunitat.org</MA_EMAIL>
+		</registro>
+		<registro>
+			<MA_CODIGO>26</MA_CODIGO>
+			<MA_REGISTRO>5030260</MA_REGISTRO>
+			<MA_NOMBRE>Mancomunidad intermunicipal La Vall de Laguar y Orba</MA_NOMBRE>
+			<MA_COMPETENCIAS>Prestación del servicio de residuos urbanos y su traslado a vertedero Potenciación cultural y deportiva Turismo Cualquier otro servicio de ámbito municipal con arreglo a ley</MA_COMPETENCIAS>
+			<MA_INTEGRANTES>Orba y La Vall de Laguar</MA_INTEGRANTES>
+			<MA_APROBACION>RESOLUCIÓN de 18 de abril de de 2012, del director general de Administración Local, por la que se publican los estatutos de la Mancomunidad Intermunicipal La Vall de Laguar y Orba. (DOCV núm. 6765, de 02/05/2012)</MA_APROBACION>
+			<MA_DIRECCION>C/ Bonaire, 12</MA_DIRECCION>
+			<MA_CP>03790 Orba</MA_CP>
+			<MA_TELEFONO>965 58 30 01</MA_TELEFONO>
+			<MA_FAX>965 58 33 20</MA_FAX>
+			<MA_WEB/>
+			<MA_EMAIL>gestionjuridica@aytoorba.com</MA_EMAIL>
+		</registro>
+	</registros>
+</datos>
